@@ -2,7 +2,7 @@
 <html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#14161b">
-<title>MPH 모션 복구 · 10월 9일 교체 전</title>
+<title>MPH 괴수 모션 · 2026.10.25</title>
 <!-- ⟦MOTION-VIEWER-1007⟧ 전 캐릭터 모션 보기(폰 우선) — 게임과 같은 로더·조명·방패 몸짓. 코드 src/lab/motion-viewer.js · 빌드 tools/motion-viewer-build.mjs -->
 <style>
 :root{--bg:#14161b;--panel:#1c1f26;--line:#2c313b;--txt:#e8ecf2;--sub:#9aa3b0;--acc:#ffd166;--on:#3b82f6;--bad:#ff6b6b}
@@ -85,6 +85,6 @@ header{display:flex;gap:8px;align-items:center;padding:8px 16px;background:var(-
     <div id="info"></div>
   </div>
 </div>
-<script>{const originalFetch=window.fetch;window.fetch=function(input,options){const u=new URL(typeof input==='string'?input:input.url,location.href);if(u.origin===location.origin&&u.pathname.includes('/asset/')&&/\.glb$/i.test(u.pathname)){u.searchParams.set('motionRev','pre1009-20261024');return originalFetch.call(this,input instanceof Request?new Request(u.href,input):u.href,options)}return originalFetch.call(this,input,options)}}</script>
+<script>{const originalFetch=window.fetch;window.fetch=function(input,options){const u=new URL(typeof input==='string'?input:input.url,location.href);if(u.origin===location.origin&&u.pathname.includes('/asset/')&&/\.glb$/i.test(u.pathname)){u.searchParams.set('motionRev','creature-20261025');return originalFetch.call(this,input instanceof Request?new Request(u.href,input):u.href,options)}return originalFetch.call(this,input,options)}}</script>
 <script src="./motion-viewer.js?v=a1beeb11a64f"></script>
-<script>document.getElementById('release').innerHTML='10월 9일 교체 전 모션 복구 · <a href="motion-audit.html" style="color:#ffd166">복구 범위 보기</a>';</script></body></html>
+<script>document.getElementById('release').innerHTML='괴수 12종 선별 적용 · <a href="motion-audit.html" style="color:#ffd166">적용 목록 보기</a>';</script></body></html>

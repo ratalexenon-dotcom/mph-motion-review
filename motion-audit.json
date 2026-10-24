@@ -1,6 +1,6 @@
 {
   "at": "2026-10-24T14:39:16.310Z",
-  "status": "restored-awaiting-user-review",
+  "status": "rollback-with-selected-creature-motions-awaiting-user-review",
   "modelsRestored": 121,
   "originalClipsRestored": 3347,
   "alreadyOld": 14,
@@ -721,8 +721,8 @@
         "hit": "slash"
       },
       "clipCount": 7,
-      "status": "restored",
-      "wholeModel": true
+      "status": "creature-selected",
+      "wholeModel": false
     },
     {
       "kind": "mob",
@@ -735,8 +735,8 @@
         "hit": "slash"
       },
       "clipCount": 7,
-      "status": "restored",
-      "wholeModel": true
+      "status": "creature-selected",
+      "wholeModel": false
     },
     {
       "kind": "mob",
@@ -805,8 +805,8 @@
         "hit": "slash"
       },
       "clipCount": 7,
-      "status": "restored",
-      "wholeModel": true
+      "status": "creature-selected",
+      "wholeModel": false
     },
     {
       "kind": "mob",
@@ -1029,7 +1029,7 @@
         "hit": "slash"
       },
       "clipCount": 15,
-      "status": "restored",
+      "status": "creature-selected",
       "wholeModel": false
     },
     {
@@ -1351,8 +1351,8 @@
         "hit": "slash"
       },
       "clipCount": 7,
-      "status": "restored",
-      "wholeModel": true
+      "status": "creature-selected",
+      "wholeModel": false
     },
     {
       "kind": "mob",
@@ -1659,7 +1659,7 @@
         "hit": "slash"
       },
       "clipCount": 15,
-      "status": "restored",
+      "status": "creature-selected",
       "wholeModel": false
     },
     {
@@ -1687,7 +1687,7 @@
         "hit": "slash"
       },
       "clipCount": 15,
-      "status": "restored",
+      "status": "creature-selected",
       "wholeModel": false
     },
     {
@@ -1701,7 +1701,7 @@
         "hit": "slash"
       },
       "clipCount": 19,
-      "status": "restored",
+      "status": "creature-selected",
       "wholeModel": false
     },
     {
@@ -1715,8 +1715,8 @@
         "hit": "slash"
       },
       "clipCount": 15,
-      "status": "restored",
-      "wholeModel": true
+      "status": "creature-selected",
+      "wholeModel": false
     },
     {
       "kind": "mob",
@@ -1729,8 +1729,8 @@
         "hit": "slash"
       },
       "clipCount": 15,
-      "status": "restored",
-      "wholeModel": true
+      "status": "creature-selected",
+      "wholeModel": false
     },
     {
       "kind": "mob",
@@ -1743,7 +1743,7 @@
         "hit": "slash"
       },
       "clipCount": 15,
-      "status": "restored",
+      "status": "creature-selected",
       "wholeModel": false
     },
     {
@@ -1757,7 +1757,7 @@
         "hit": "slash"
       },
       "clipCount": 16,
-      "status": "restored",
+      "status": "creature-selected",
       "wholeModel": false
     },
     {
@@ -1785,7 +1785,7 @@
         "hit": "slash"
       },
       "clipCount": 15,
-      "status": "restored",
+      "status": "creature-selected",
       "wholeModel": false
     },
     {
@@ -2075,5 +2075,169 @@
     "영웅 8개는 10월 8일 작업 납품본(실제 저장 10월 9일 02:25), 토끼 치유사는 확보된 10월 6일 백업을 사용했습니다.",
     "옛 백업에 있던 오크 주술사의 무기 좌표 오류 한 트랙은 더 이전의 정상 원본으로 복구했습니다.",
     "147개 표시 항목의 로딩·기본동작 선택·모든 런타임 클립 재생을 검사했습니다. 모든 동작의 자연스러움에 대한 사용자 승인을 뜻하지 않습니다."
-  ]
+  ],
+  "creatureMotion20261025": {
+    "at": "2026-10-24T15:32:36.573Z",
+    "models": 12,
+    "clips": 19,
+    "status": "applied-awaiting-user-review",
+    "source": "2026-10-21 local Mesh2Motion CC0 creature packs; no Mixamo or new paid generation",
+    "entries": [
+      {
+        "tag": "mob-27",
+        "name": "그리핀",
+        "id": "27",
+        "clips": {
+          "idle": "horse:Idle",
+          "walk": "horse:Walk",
+          "slash": "horse:Head_But + existing adapted forepaw motion"
+        },
+        "sha256": "059febdb1acaac6b197673264fc385dc648e979ffb9da6165f8c3c5add6b4053",
+        "method": "selective transfer from existing Mesh2Motion adaptation; exact rig/rest match"
+      },
+      {
+        "tag": "mob-n_2-8",
+        "name": "피닉스",
+        "id": "n:2-8",
+        "clips": {
+          "idle": "bird:Flap",
+          "walk": "bird:Flap"
+        },
+        "sha256": "cb04e02877d8d8edc9a83ba7aa7704ae65ea0ba209ef6b7d2f1e4442ac3b8645",
+        "method": "selective transfer from existing Mesh2Motion adaptation; exact rig/rest match"
+      },
+      {
+        "tag": "mob-n_3-12",
+        "name": "아포피스",
+        "id": "n:3-12",
+        "clips": {
+          "idle": "snake:Idle",
+          "walk": "snake:Side winding"
+        },
+        "sha256": "f005981a869e0c64452fcf32b719d5ccf41d9407acd34ba87275619f634950d5",
+        "method": "selective transfer from existing Mesh2Motion adaptation; exact rig/rest match"
+      },
+      {
+        "tag": "mob-n_3-7",
+        "name": "나가라자",
+        "id": "n:3-7",
+        "clips": {
+          "idle": "snake:Idle (tail only)",
+          "walk": "snake:Side winding (tail only)"
+        },
+        "sha256": "9b6d020e7ffe40d8ee9c642b5eb72e5498bd8c683015762a497fb09d525c128e",
+        "method": "selective transfer from existing Mesh2Motion adaptation; exact rig/rest match"
+      },
+      {
+        "tag": "mob-n_2-12",
+        "name": "야마타노오로치",
+        "id": "n:2-12",
+        "clips": {
+          "idle": "snake:Idle",
+          "walk": "snake:Side winding"
+        },
+        "sha256": "ce68c53ee2972033e1341e75e67cbb5803644c8986d134a8fbe1d134c892553e",
+        "method": "selective transfer from existing Mesh2Motion adaptation; exact rig/rest match"
+      },
+      {
+        "tag": "mob-n_5-T",
+        "name": "에키드나",
+        "id": "n:5-T",
+        "clips": {
+          "idle": "snake:Idle (tail only)",
+          "walk": "snake:Side winding (tail only)"
+        },
+        "sha256": "7761697ea5ba9658e6fa5a60c053717f85a964d496a5d3a5fa4df3be0f6cd0eb",
+        "method": "selective transfer from existing Mesh2Motion adaptation; exact rig/rest match"
+      },
+      {
+        "tag": "mob-2",
+        "name": "새끼 서리늑대",
+        "id": "2",
+        "clips": {
+          "slash": "fox:Bite"
+        },
+        "sha256": "b464e72806e38659d03ac2a4cc80d9683dd9eca1f44dcbcd827d9e7e028e5183",
+        "method": "raw fox Bite world-space anatomical retarget: wolves/Fenrir head+jaw, Cerberus three necks+heads+jaws; all leg-driving bones retain restored idle stance; original rig/weights/gait/death retained"
+      },
+      {
+        "tag": "mob-3",
+        "name": "서리늑대",
+        "id": "3",
+        "clips": {
+          "slash": "fox:Bite"
+        },
+        "sha256": "837a2489d9bb93d83a04902470879ac926bcb80cdc1812bc3402d75571fcc4bb",
+        "method": "raw fox Bite world-space anatomical retarget: wolves/Fenrir head+jaw, Cerberus three necks+heads+jaws; all leg-driving bones retain restored idle stance; original rig/weights/gait/death retained"
+      },
+      {
+        "tag": "mob-8",
+        "name": "사슬 사냥개",
+        "id": "8",
+        "clips": {
+          "slash": "fox:Bite"
+        },
+        "sha256": "3403a48994795b421bfb38446cdc7538ec8fb207c192f864f02c3d6a30d7b944",
+        "method": "raw fox Bite world-space anatomical retarget: wolves/Fenrir head+jaw, Cerberus three necks+heads+jaws; all leg-driving bones retain restored idle stance; original rig/weights/gait/death retained"
+      },
+      {
+        "tag": "mob-67",
+        "name": "얼음이빨 늑대",
+        "id": "67",
+        "clips": {
+          "slash": "fox:Bite"
+        },
+        "sha256": "a2774aa7b12ff02f935effbe292e5f70c376210b385a54c4b045233bcc0ffdf7",
+        "method": "raw fox Bite world-space anatomical retarget: wolves/Fenrir head+jaw, Cerberus three necks+heads+jaws; all leg-driving bones retain restored idle stance; original rig/weights/gait/death retained"
+      },
+      {
+        "tag": "mob-n_4-12",
+        "name": "펜리르",
+        "id": "n:4-12",
+        "clips": {
+          "slash": "fox:Bite"
+        },
+        "sha256": "d37a629b51f1ff25ea41a0f092024c53bba32c79a1a1127458736a92da87b375",
+        "method": "raw fox Bite world-space anatomical retarget: wolves/Fenrir head+jaw, Cerberus three necks+heads+jaws; all leg-driving bones retain restored idle stance; original rig/weights/gait/death retained"
+      },
+      {
+        "tag": "mob-n_5-7",
+        "name": "케르베로스",
+        "id": "n:5-7",
+        "clips": {
+          "slash": "fox:Bite"
+        },
+        "sha256": "1edac6c42fdf5cc1e992e799c5d296a4f3453addf15d1f1982283e38136f72eb",
+        "method": "raw fox Bite world-space anatomical retarget: wolves/Fenrir head+jaw, Cerberus three necks+heads+jaws; all leg-driving bones retain restored idle stance; original rig/weights/gait/death retained"
+      }
+    ],
+    "preserved": [
+      "Every model mesh, texture, skeleton and skin weights",
+      "All death and unselected clips",
+      "Humanoid rollback state",
+      "Original canine idle and gait"
+    ],
+    "excluded": [
+      {
+        "name": "나락거미여왕",
+        "reason": "물기 이식 시 뒷다리 들림·늘어짐으로 제외"
+      },
+      {
+        "name": "아포피스·오로치 평타",
+        "reason": "목이 아래로 접히는 후보 제외; 원래 평타 유지"
+      },
+      {
+        "name": "파프니르",
+        "reason": "복구된 전신 움직임 유지; 이전 이식본보다 자연스러움"
+      },
+      {
+        "name": "티폰·골렘·미믹 등",
+        "reason": "카이주 팩과 골격·체형 불일치; 적용 제외"
+      },
+      {
+        "name": "와이번·늪아귀",
+        "reason": "복구 시 유지된 후발 제작본에 이미 괴수 팩 적용; 중복 교체 없음"
+      }
+    ]
+  }
 }
